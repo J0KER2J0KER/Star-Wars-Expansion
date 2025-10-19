@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.starwarsexpansion.world.features.StructureFeature;
 import net.mcreator.starwarsexpansion.init.StarWarsExpansionModVillagerProfessions;
 import net.mcreator.starwarsexpansion.init.StarWarsExpansionModTabs;
 import net.mcreator.starwarsexpansion.init.StarWarsExpansionModSounds;
@@ -53,6 +54,8 @@ public class StarWarsExpansionMod {
 		StarWarsExpansionModEntities.REGISTRY.register(bus);
 
 		StarWarsExpansionModTabs.REGISTRY.register(bus);
+
+		StructureFeature.REGISTRY.register(bus);
 
 		StarWarsExpansionModParticleTypes.REGISTRY.register(bus);
 		StarWarsExpansionModVillagerProfessions.PROFESSIONS.register(bus);

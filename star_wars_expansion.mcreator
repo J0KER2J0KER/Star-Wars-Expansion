@@ -5755,6 +5755,189 @@
           "src/main/resources/data/star_wars_expansion/worldgen/structure_set/ewok_tree.json"
         ]
       }
+    },
+    {
+      "name": "EndorBush",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_bush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/endor_bush.json",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/endor_bush_biome_modifier.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/endor_bush.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "EndorRock",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_rock",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/endor_rock.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/endor_rock.json",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/endor_rock_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ForcePike",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_pike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/ForcePikeItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/force_pike.json"
+        ]
+      }
+    },
+    {
+      "name": "HardenedMud",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/hardened_mud.json",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/hardened_mud_biome_modifier.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/configured_feature/hardened_mud.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/placed_feature/hardened_mud.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/hardened_mud.json",
+          "src/main/resources/assets/star_wars_expansion/blockstates/hardened_mud.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/HardenedMudBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/block/hardened_mud.json"
+        ]
+      }
+    },
+    {
+      "name": "Porg",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/entity/PorgEntity.java",
+          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/porg_biome_modifier.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/porg_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/PorgRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/PorgModel.java"
+        ]
+      }
+    },
+    {
+      "name": "BallDroid",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ball_droid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/BallDroidRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/model/BallDroidModel.java",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/BallDroidEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BB8",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bb_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/bb_8.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/BB8Item.java"
+        ]
+      }
+    },
+    {
+      "name": "BB8RightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bb_8_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BB8RightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TravelEndorProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "travel_endor_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/TravelEndorProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawPorg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_porg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/RawPorgItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/raw_porg.json"
+        ]
+      }
+    },
+    {
+      "name": "CookedPorg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_porg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/item/CookedPorgItem.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/cooked_porg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -6017,6 +6200,25 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "porg_idle",
+      "files": [
+        "porg_idle"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bb_idle",
+      "files": [
+        "bb_idle",
+        "bb_idle1",
+        "bb_idle2",
+        "bb_idle3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -6090,6 +6292,7 @@
       "~CUSTOM:WorkspaceBench"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:HardenedMud",
       "~CUSTOM:HothSnow",
       "~CUSTOM:TatooineSand"
     ],
@@ -6105,6 +6308,7 @@
       "~CUSTOM:TatooineSandstoneStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:ForcePike",
       "~CUSTOM:PurpleDoubleLightsaberClosed",
       "~CUSTOM:YellowDoubleLightsaberClosed",
       "~CUSTOM:GreenDoubleLightsaberClosed",
@@ -6129,8 +6333,8 @@
     "en_us": {
       "item.star_wars_expansion.mse_6": "§eMSE-6",
       "item.star_wars_expansion.rodian_green_spawn_egg": "Rodian Spawn Egg",
-      "item.star_wars_expansion.kyber_crystal_purple": "§5Purple Kyber Crystal ",
       "block.star_wars_expansion.modern_crate_3": "Modern Crate",
+      "item.star_wars_expansion.kyber_crystal_purple": "§5Purple Kyber Crystal ",
       "item.star_wars_expansion.yellow_lightsaber_closed": "§eYellow Lightsaber",
       "item.star_wars_expansion.clone_armor_212_helmet": "Clone Trooper 212st Helmet",
       "block.star_wars_expansion.modern_crate_4": "Modern Crate",
@@ -6139,8 +6343,8 @@
       "block.star_wars_expansion.modern_pillar": "Modern Pillar",
       "item.star_wars_expansion.arges_frog_spawn_egg": "Arges Frog Spawn Egg",
       "gui.star_wars_expansion.spaceship_overlay.label_z": "Z",
-      "item.star_wars_expansion.pirate_lizard_spawn_egg": "Pirate Spawn Egg",
       "item.star_wars_expansion.krykna_leg": "Krykna Leg",
+      "item.star_wars_expansion.pirate_lizard_spawn_egg": "Pirate Spawn Egg",
       "subtitles.rodian_idle": "",
       "item.star_wars_expansion.bantha_milk": "Bantha Milk Bucket",
       "item.star_wars_expansion.double_lightsaber_purple": "§5Purple Double Lightsaber",
@@ -6149,16 +6353,16 @@
       "item.star_wars_expansion.beskar_armor_helmet": "§cBeskar Helmet",
       "item.star_wars_expansion.ewok_spawn_egg": "Ewok Spawn Egg",
       "gui.star_wars_expansion.planet_anchor_gui.label_earth": "Earth",
-      "entity.star_wars_expansion.speeder_bike": "Speeder Bike",
-      "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
       "item.star_wars_expansion.jawa_spawn_egg": "Jawa Spawn Egg",
-      "item.star_wars_expansion.jogan": "Jogan",
-      "item.star_wars_expansion.saber_handle": "Saber Handle",
+      "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
+      "entity.star_wars_expansion.speeder_bike": "Speeder Bike",
       "block.star_wars_expansion.tatooine_door": "Tatooine Door",
-      "key.star_wars_expansion.spaceship_shoot_key": "Spaceship Shoot ",
+      "item.star_wars_expansion.saber_handle": "Saber Handle",
+      "item.star_wars_expansion.jogan": "Jogan",
       "item.star_wars_expansion.pirate_spawn_egg": "Pirate Spawn Egg",
-      "block.star_wars_expansion.tatooine_sandstone_slab": "Tatooine Sandstone Slab",
+      "key.star_wars_expansion.spaceship_shoot_key": "Spaceship Shoot ",
       "item.star_wars_expansion.vibroblade": "§eVibroblade",
+      "block.star_wars_expansion.tatooine_sandstone_slab": "Tatooine Sandstone Slab",
       "entity.star_wars_expansion.protocol_droid_pink": "Protocol Droid Pink",
       "entity.star_wars_expansion.ewok": "Ewok",
       "block.star_wars_expansion.metal_slab": "Metal Slab",
@@ -6181,6 +6385,7 @@
       "block.star_wars_expansion.metal_stairs": "Metal Stairs",
       "item.star_wars_expansion.banhta_horn": "Bantha Horn",
       "entity.star_wars_expansion.astromech_droid_pink": "Astromech Droid Pink",
+      "item.star_wars_expansion.ball_droid_spawn_egg": "Ball Droid Spawn Egg",
       "subtitles.rodian_death": "",
       "item.star_wars_expansion.kyber_crystal_yellow": "§eYellow Kyber Crystal ",
       "subtitles.twilek_idle": "",
@@ -6194,6 +6399,7 @@
       "item.star_wars_expansion.tie_fighter_item": "TIE-Fighter",
       "entity.star_wars_expansion.atst": "AT-ST",
       "item.star_wars_expansion.gaderffii_stick": "§eGaderffii Stick",
+      "block.star_wars_expansion.hardened_mud": "Hardened Mud",
       "entity.minecraft.villager.star_wars_expansion.lumberjack_trader": "Lumberjack Trader",
       "subtitles.swing": "",
       "entity.star_wars_expansion.twi_lek_blue": "Twi\u0027Lek",
@@ -6204,6 +6410,7 @@
       "entity.star_wars_expansion.rodian_blue": "Rodian",
       "item.star_wars_expansion.mouse_droid_spawn_egg": "Mouse Droid Spawn Egg",
       "subtitles.bantha_idle": "",
+      "subtitles.porg_idle": "",
       "item.star_wars_expansion.r_4_p_17": "§eR4-P17",
       "item_group.star_wars_expansion.trooper_tab": "Star Wars Combat",
       "entity.star_wars_expansion.rodian_red": "Rodian",
@@ -6223,6 +6430,7 @@
       "item.star_wars_expansion.clone_armor_212_leggings": "Clone Trooper 212st Leggings",
       "entity.star_wars_expansion.mouse_droid": "Mouse Droid",
       "entity.minecraft.villager.star_wars_expansion.miner_trader": "Miner Trader",
+      "entity.star_wars_expansion.ball_droid": "Ball Droid",
       "item.star_wars_expansion.ithorian_spawn_egg": "Ithorian Spawn Egg",
       "item.star_wars_expansion.hutt_spawn_egg": "Hutt Spawn Egg",
       "gui.star_wars_expansion.planet_anchor_gui.label_hoth": "Hoth",
@@ -6235,6 +6443,7 @@
       "item.star_wars_expansion.jedi_temple_guard_armor_chestplate": "§eJedi Temple Guard Robes",
       "item_group.star_wars_expansion.vehicles_tab": "Star Wars Vehicles",
       "entity.star_wars_expansion.bantha": "Bantha",
+      "subtitles.bb_idle": "",
       "item.star_wars_expansion.blue_lightsaber_closed": "§bBlue Lightsaber",
       "item.star_wars_expansion.quadanium_ingot": "Quadanium Ingot",
       "item_group.star_wars_expansion.items_tab": "Star Wars Items",
@@ -6248,6 +6457,7 @@
       "item.star_wars_expansion.pirate_human_spawn_egg": "Pirate Spawn Egg",
       "item.star_wars_expansion.clone_armor_501_leggings": "Clone Trooper 501st Leggings",
       "entity.star_wars_expansion.tie_fighter": "TIE-Fighter",
+      "entity.star_wars_expansion.porg": "Porg",
       "entity.star_wars_expansion.rodian_default": "Rodian",
       "item.star_wars_expansion.cooked_bantha_meat": "Cooked Bantha Meat",
       "block.star_wars_expansion.computer_station": "Computer Station",
@@ -6264,6 +6474,7 @@
       "block.star_wars_expansion.quadanium_ore": "Quadanium Ore",
       "item.star_wars_expansion.arges_frog_leg": "Arges Frog Leg",
       "item.star_wars_expansion.double_lightsaber_yellow": "§eYellow Double Lightsaber",
+      "item.star_wars_expansion.porg_spawn_egg": "Porg Spawn Egg",
       "item.star_wars_expansion.green_lightsaber_closed": "§aGreen Lightsaber",
       "item.star_wars_expansion.red_lightsaber_closed": "§cRed Lightsaber",
       "item.star_wars_expansion.twi_lek_orange_spawn_egg": "Twi\u0027Lek Spawn Egg",
@@ -6366,6 +6577,7 @@
       "item.star_wars_expansion.rodian_default_spawn_egg": "Rodian Spawn Egg",
       "item.star_wars_expansion.kyber_crystal_red": "§cRed Kyber Crystal ",
       "entity.star_wars_expansion.krykna": "Krykna",
+      "item.star_wars_expansion.raw_porg": "Raw Porg",
       "item.star_wars_expansion.double_lightsaber_red": "§cRed Double Lightsaber",
       "item.star_wars_expansion.twi_lek_pink_spawn_egg": "Twi\u0027Lek Spawn Egg",
       "item.star_wars_expansion.clone_armor_212_chestplate": "Clone Trooper 212st Chestplate",
@@ -6390,6 +6602,7 @@
       "item.star_wars_expansion.red_double_lightsaber_closed": "§cRed Double Lightsaber",
       "item.star_wars_expansion.sith_clothes_chestplate": "§cSith Clothes",
       "entity.star_wars_expansion.protocol_droid_white": "Protocol Droid White",
+      "item.star_wars_expansion.cooked_porg": "Cooked Porg",
       "item.star_wars_expansion.krykna_string": "Krykna String",
       "block.star_wars_expansion.aurodium_ore": "Hoth Stone",
       "item.star_wars_expansion.westar_34": "Westar-34",
@@ -6404,11 +6617,13 @@
       "item.star_wars_expansion.krykna_spawn_egg": "Krykna Spawn Egg",
       "entity.minecraft.villager.star_wars_expansion.droid_trader": "Droid Trader",
       "item.star_wars_expansion.clone_armor_helmet": "Clone Trooper Helmet",
+      "item.star_wars_expansion.force_pike": "§eForce Pike",
       "item.star_wars_expansion.tusken_raider_spawn_egg": "Tusken Spawn Egg",
       "item.star_wars_expansion.beskar_armor_leggings": "§cBeskar Leggings",
       "item.star_wars_expansion.b_1": "§eBattle Droid B1",
       "item.star_wars_expansion.twi_lek_blue_spawn_egg": "Twi\u0027Lek Spawn Egg",
       "item.star_wars_expansion.human_spawn_egg": "Human Spawn Egg",
+      "item.star_wars_expansion.bb_8": "§eBB-8",
       "item.star_wars_expansion.clone_armor_leggings": "Clone Trooper Leggings"
     }
   },
@@ -6419,7 +6634,7 @@
   "workspaceSettings": {
     "modid": "star_wars_expansion",
     "modName": "Star Wars Expansion",
-    "version": "1.5",
+    "version": "1.6.0",
     "author": "FazBrick Studios",
     "websiteURL": "https://www.curseforge.com/members/mrfazcraft/projects",
     "license": "All Rights Reserved",

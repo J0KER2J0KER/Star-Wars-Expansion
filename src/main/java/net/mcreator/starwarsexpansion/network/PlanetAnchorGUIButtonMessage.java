@@ -14,6 +14,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.starwarsexpansion.world.inventory.PlanetAnchorGUIMenu;
 import net.mcreator.starwarsexpansion.procedures.TravelTatooineProcedureProcedure;
 import net.mcreator.starwarsexpansion.procedures.TravelHothProcedureProcedure;
+import net.mcreator.starwarsexpansion.procedures.TravelEndorProcedureProcedure;
 import net.mcreator.starwarsexpansion.procedures.TravelEarthProcedure;
 import net.mcreator.starwarsexpansion.procedures.TravelDenyProcedureProcedure;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
@@ -71,7 +72,7 @@ public class PlanetAnchorGUIButtonMessage {
 		}
 		if (buttonID == 1) {
 
-			TravelDenyProcedureProcedure.execute(world, x, y, z, entity);
+			TravelEndorProcedureProcedure.execute(entity);
 		}
 		if (buttonID == 2) {
 

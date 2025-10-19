@@ -44,4 +44,6 @@ public class StarWarsExpansionModSounds {
 	public static final RegistryObject<SoundEvent> TAUNTAUN_IDLE = REGISTRY.register("tauntaun_idle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "tauntaun_idle")));
 	public static final RegistryObject<SoundEvent> EWOK_IDLE = REGISTRY.register("ewok_idle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "ewok_idle")));
 	public static final RegistryObject<SoundEvent> EWOK_HURT = REGISTRY.register("ewok_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "ewok_hurt")));
+	public static final RegistryObject<SoundEvent> PORG_IDLE = REGISTRY.register("porg_idle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "porg_idle")));
+	public static final RegistryObject<SoundEvent> BB_IDLE = REGISTRY.register("bb_idle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "bb_idle")));
 }

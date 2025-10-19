@@ -38,6 +38,7 @@ import net.mcreator.starwarsexpansion.item.RubberItem;
 import net.mcreator.starwarsexpansion.item.ReparationKitItem;
 import net.mcreator.starwarsexpansion.item.RedLightsaberClosedItem;
 import net.mcreator.starwarsexpansion.item.RedDoubleLightsaberClosedItem;
+import net.mcreator.starwarsexpansion.item.RawPorgItem;
 import net.mcreator.starwarsexpansion.item.RawBanthaMeatItem;
 import net.mcreator.starwarsexpansion.item.R4P17Item;
 import net.mcreator.starwarsexpansion.item.R2KTItem;
@@ -73,6 +74,7 @@ import net.mcreator.starwarsexpansion.item.GalacticCreditItem;
 import net.mcreator.starwarsexpansion.item.GalacticCreditGoldItem;
 import net.mcreator.starwarsexpansion.item.GaderffiiStickItem;
 import net.mcreator.starwarsexpansion.item.GNKItem;
+import net.mcreator.starwarsexpansion.item.ForcePikeItem;
 import net.mcreator.starwarsexpansion.item.EscapePodItemItem;
 import net.mcreator.starwarsexpansion.item.ElectronicBoardItem;
 import net.mcreator.starwarsexpansion.item.EE3Item;
@@ -84,6 +86,7 @@ import net.mcreator.starwarsexpansion.item.DoubleLightsaberGeoItem;
 import net.mcreator.starwarsexpansion.item.DooniumIngotItem;
 import net.mcreator.starwarsexpansion.item.DooniumArmorItem;
 import net.mcreator.starwarsexpansion.item.DL44Item;
+import net.mcreator.starwarsexpansion.item.CookedPorgItem;
 import net.mcreator.starwarsexpansion.item.CookedBanthaMeatItem;
 import net.mcreator.starwarsexpansion.item.ComputerTipItem;
 import net.mcreator.starwarsexpansion.item.CloneArmorItem;
@@ -101,6 +104,7 @@ import net.mcreator.starwarsexpansion.item.BeskarArmorItem;
 import net.mcreator.starwarsexpansion.item.BanthaMilkItem;
 import net.mcreator.starwarsexpansion.item.BanthaLeatherItem;
 import net.mcreator.starwarsexpansion.item.BanhtaHornItem;
+import net.mcreator.starwarsexpansion.item.BB8Item;
 import net.mcreator.starwarsexpansion.item.B1Item;
 import net.mcreator.starwarsexpansion.item.AurodiumIngotItem;
 import net.mcreator.starwarsexpansion.item.ArgesFrogLegItem;
@@ -289,6 +293,12 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> PURPLE_DOUBLE_LIGHTSABER_CLOSED = REGISTRY.register("purple_double_lightsaber_closed", () -> new PurpleDoubleLightsaberClosedItem());
 	public static final RegistryObject<Item> REDWOOD_LOG = block(StarWarsExpansionModBlocks.REDWOOD_LOG);
 	public static final RegistryObject<Item> EWOK_SPAWN_EGG = REGISTRY.register("ewok_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.EWOK, -2850515, -10991308, new Item.Properties()));
+	public static final RegistryObject<Item> FORCE_PIKE = REGISTRY.register("force_pike", () -> new ForcePikeItem());
+	public static final RegistryObject<Item> HARDENED_MUD = block(StarWarsExpansionModBlocks.HARDENED_MUD);
+	public static final RegistryObject<Item> PORG_SPAWN_EGG = REGISTRY.register("porg_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.PORG, -13421773, -39424, new Item.Properties()));
+	public static final RegistryObject<Item> BB_8 = REGISTRY.register("bb_8", () -> new BB8Item());
+	public static final RegistryObject<Item> RAW_PORG = REGISTRY.register("raw_porg", () -> new RawPorgItem());
+	public static final RegistryObject<Item> COOKED_PORG = REGISTRY.register("cooked_porg", () -> new CookedPorgItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

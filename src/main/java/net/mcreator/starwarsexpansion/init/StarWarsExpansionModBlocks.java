@@ -39,6 +39,7 @@ import net.mcreator.starwarsexpansion.block.KoltoTankBlock;
 import net.mcreator.starwarsexpansion.block.HothStoneBlock;
 import net.mcreator.starwarsexpansion.block.HothSnowBlock;
 import net.mcreator.starwarsexpansion.block.HolocronBlock;
+import net.mcreator.starwarsexpansion.block.HardenedMudBlock;
 import net.mcreator.starwarsexpansion.block.GridMetalBlockBlock;
 import net.mcreator.starwarsexpansion.block.DooniumOreBlock;
 import net.mcreator.starwarsexpansion.block.CopperSandstoneOreBlock;
@@ -88,6 +89,7 @@ public class StarWarsExpansionModBlocks {
 	public static final RegistryObject<Block> CONTROL_STATION = REGISTRY.register("control_station", () -> new ControlStationBlock());
 	public static final RegistryObject<Block> KOLTO_TANK = REGISTRY.register("kolto_tank", () -> new KoltoTankBlock());
 	public static final RegistryObject<Block> REDWOOD_LOG = REGISTRY.register("redwood_log", () -> new RedwoodLogBlock());
+	public static final RegistryObject<Block> HARDENED_MUD = REGISTRY.register("hardened_mud", () -> new HardenedMudBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

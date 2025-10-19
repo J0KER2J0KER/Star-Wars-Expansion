@@ -286,5 +286,33 @@
         "stream": false
       }
     ]
+  },
+  "porg_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:porg_idle",
+        "stream": false
+      }
+    ]
+  },
+  "bb_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:bb_idle",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:bb_idle1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:bb_idle2",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:bb_idle3",
+        "stream": false
+      }
+    ]
   }
 }

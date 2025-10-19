@@ -82,6 +82,7 @@ public class StarWarsExpansionModTabs {
 				tabData.accept(StarWarsExpansionModItems.SNOW_SUIT_HELMET.get());
 				tabData.accept(StarWarsExpansionModItems.SNOW_SUIT_CHESTPLATE.get());
 				tabData.accept(StarWarsExpansionModItems.SNOW_SUIT_LEGGINGS.get());
+				tabData.accept(StarWarsExpansionModItems.FORCE_PIKE.get());
 			}).withTabsBefore(FORCE_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> ITEMS_TAB = REGISTRY.register("items_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars_expansion.items_tab")).icon(() -> new ItemStack(StarWarsExpansionModItems.DOONIUM_INGOT.get())).displayItems((parameters, tabData) -> {
@@ -110,6 +111,8 @@ public class StarWarsExpansionModTabs {
 				tabData.accept(StarWarsExpansionModItems.REPARATION_KIT.get());
 				tabData.accept(StarWarsExpansionModItems.TAUNTAUN_LEATHER.get());
 				tabData.accept(StarWarsExpansionModItems.AURODIUM_INGOT.get());
+				tabData.accept(StarWarsExpansionModItems.RAW_PORG.get());
+				tabData.accept(StarWarsExpansionModItems.COOKED_PORG.get());
 			}).withTabsBefore(TROOPER_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> DROID_TAB = REGISTRY.register("droid_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars_expansion.droid_tab")).icon(() -> new ItemStack(StarWarsExpansionModItems.R_2_D_2.get())).displayItems((parameters, tabData) -> {
@@ -123,6 +126,7 @@ public class StarWarsExpansionModTabs {
 				tabData.accept(StarWarsExpansionModItems.MSE_6.get());
 				tabData.accept(StarWarsExpansionModItems.B_1.get());
 				tabData.accept(StarWarsExpansionModItems.T_3_M_4_ITEM.get());
+				tabData.accept(StarWarsExpansionModItems.BB_8.get());
 			}).withTabsBefore(ITEMS_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> VEHICLES_TAB = REGISTRY.register("vehicles_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars_expansion.vehicles_tab")).icon(() -> new ItemStack(StarWarsExpansionModItems.LANDSPEEDER_ITEM.get())).displayItems((parameters, tabData) -> {
@@ -152,6 +156,7 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModItems.HUTT_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.PIRATE_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.EWOK_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.PORG_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SAND.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SANDSTONE.get().asItem());
@@ -183,6 +188,7 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModBlocks.COMPUTER_STATION.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.CONTROL_STATION.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.REDWOOD_LOG.get().asItem());
+			tabData.accept(StarWarsExpansionModBlocks.HARDENED_MUD.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE_2.get().asItem());

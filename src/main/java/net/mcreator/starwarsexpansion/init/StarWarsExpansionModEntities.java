@@ -35,6 +35,7 @@ import net.mcreator.starwarsexpansion.entity.RodianBlueEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidWhiteEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidGoldEntity;
+import net.mcreator.starwarsexpansion.entity.PorgEntity;
 import net.mcreator.starwarsexpansion.entity.PirateWestEntity;
 import net.mcreator.starwarsexpansion.entity.PirateLizardEntity;
 import net.mcreator.starwarsexpansion.entity.PirateHumanEntity;
@@ -55,6 +56,7 @@ import net.mcreator.starwarsexpansion.entity.EnemyLaserProjectileEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BattleDroidEntity;
 import net.mcreator.starwarsexpansion.entity.BanthaEntity;
+import net.mcreator.starwarsexpansion.entity.BallDroidEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidRedEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidBlueEntity;
@@ -203,6 +205,12 @@ public class StarWarsExpansionModEntities {
 			EntityType.Builder.<EwokEntity>of(EwokEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EwokEntity::new)
 
 					.sized(0.6f, 1.6f));
+	public static final RegistryObject<EntityType<PorgEntity>> PORG = register("porg",
+			EntityType.Builder.<PorgEntity>of(PorgEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PorgEntity::new)
+
+					.sized(0.4f, 0.7f));
+	public static final RegistryObject<EntityType<BallDroidEntity>> BALL_DROID = register("ball_droid",
+			EntityType.Builder.<BallDroidEntity>of(BallDroidEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BallDroidEntity::new).fireImmune().sized(0.5f, 1f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -255,6 +263,8 @@ public class StarWarsExpansionModEntities {
 			PirateWestEntity.init();
 			PirateEntity.init();
 			EwokEntity.init();
+			PorgEntity.init();
+			BallDroidEntity.init();
 		});
 	}
 
@@ -302,5 +312,7 @@ public class StarWarsExpansionModEntities {
 		event.put(PIRATE_WEST.get(), PirateWestEntity.createAttributes().build());
 		event.put(PIRATE.get(), PirateEntity.createAttributes().build());
 		event.put(EWOK.get(), EwokEntity.createAttributes().build());
+		event.put(PORG.get(), PorgEntity.createAttributes().build());
+		event.put(BALL_DROID.get(), BallDroidEntity.createAttributes().build());
 	}
 }

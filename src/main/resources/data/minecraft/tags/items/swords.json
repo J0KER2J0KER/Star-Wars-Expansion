@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "star_wars_expansion:force_pike",
     "star_wars_expansion:purple_double_lightsaber_closed",
     "star_wars_expansion:yellow_double_lightsaber_closed",
     "star_wars_expansion:green_double_lightsaber_closed",

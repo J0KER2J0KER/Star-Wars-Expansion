@@ -28,6 +28,7 @@ import net.mcreator.starwarsexpansion.client.renderer.RodianBlueRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ProtocolDroidWhiteRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ProtocolDroidPinkRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ProtocolDroidGoldRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.PorgRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.PirateWestRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.PirateRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.PirateLizardRenderer;
@@ -48,6 +49,7 @@ import net.mcreator.starwarsexpansion.client.renderer.EnemyLaserProjectileRender
 import net.mcreator.starwarsexpansion.client.renderer.BrokenEscapePodRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BattleDroidRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BanthaRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.BallDroidRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.AstromechDroidRedRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.AstromechDroidPinkRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.AstromechDroidBlueRenderer;
@@ -102,5 +104,7 @@ public class StarWarsExpansionModEntityRenderers {
 		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE_WEST.get(), PirateWestRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.PIRATE.get(), PirateRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.EWOK.get(), EwokRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.PORG.get(), PorgRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.BALL_DROID.get(), BallDroidRenderer::new);
 	}
 }

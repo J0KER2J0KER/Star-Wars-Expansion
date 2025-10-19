@@ -23,6 +23,7 @@ import net.mcreator.starwarsexpansion.entity.RodianBlueEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidWhiteEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.ProtocolDroidGoldEntity;
+import net.mcreator.starwarsexpansion.entity.PorgEntity;
 import net.mcreator.starwarsexpansion.entity.PirateWestEntity;
 import net.mcreator.starwarsexpansion.entity.PirateLizardEntity;
 import net.mcreator.starwarsexpansion.entity.PirateHumanEntity;
@@ -41,6 +42,7 @@ import net.mcreator.starwarsexpansion.entity.EscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BattleDroidEntity;
 import net.mcreator.starwarsexpansion.entity.BanthaEntity;
+import net.mcreator.starwarsexpansion.entity.BallDroidEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidRedEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidBlueEntity;
@@ -340,6 +342,20 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof EwokEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof PorgEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BallDroidEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
