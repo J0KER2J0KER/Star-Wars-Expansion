@@ -47,6 +47,7 @@ import net.mcreator.starwarsexpansion.entity.AstromechDroidRedEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidBlueEntity;
 import net.mcreator.starwarsexpansion.entity.ArgesFrogEntity;
+import net.mcreator.starwarsexpansion.entity.AncientSithLordEntity;
 import net.mcreator.starwarsexpansion.entity.ATSTEntity;
 
 @Mod.EventBusSubscriber
@@ -356,6 +357,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof BallDroidEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof AncientSithLordEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

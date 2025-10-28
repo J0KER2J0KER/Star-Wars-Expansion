@@ -61,6 +61,7 @@ import net.mcreator.starwarsexpansion.entity.AstromechDroidRedEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidPinkEntity;
 import net.mcreator.starwarsexpansion.entity.AstromechDroidBlueEntity;
 import net.mcreator.starwarsexpansion.entity.ArgesFrogEntity;
+import net.mcreator.starwarsexpansion.entity.AncientSithLordEntity;
 import net.mcreator.starwarsexpansion.entity.ATSTEntity;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
 
@@ -211,6 +212,8 @@ public class StarWarsExpansionModEntities {
 					.sized(0.4f, 0.7f));
 	public static final RegistryObject<EntityType<BallDroidEntity>> BALL_DROID = register("ball_droid",
 			EntityType.Builder.<BallDroidEntity>of(BallDroidEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BallDroidEntity::new).fireImmune().sized(0.5f, 1f));
+	public static final RegistryObject<EntityType<AncientSithLordEntity>> ANCIENT_SITH_LORD = register("ancient_sith_lord", EntityType.Builder.<AncientSithLordEntity>of(AncientSithLordEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AncientSithLordEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -265,6 +268,7 @@ public class StarWarsExpansionModEntities {
 			EwokEntity.init();
 			PorgEntity.init();
 			BallDroidEntity.init();
+			AncientSithLordEntity.init();
 		});
 	}
 
@@ -314,5 +318,6 @@ public class StarWarsExpansionModEntities {
 		event.put(EWOK.get(), EwokEntity.createAttributes().build());
 		event.put(PORG.get(), PorgEntity.createAttributes().build());
 		event.put(BALL_DROID.get(), BallDroidEntity.createAttributes().build());
+		event.put(ANCIENT_SITH_LORD.get(), AncientSithLordEntity.createAttributes().build());
 	}
 }

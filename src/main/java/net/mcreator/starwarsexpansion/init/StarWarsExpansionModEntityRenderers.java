@@ -54,6 +54,7 @@ import net.mcreator.starwarsexpansion.client.renderer.AstromechDroidRedRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.AstromechDroidPinkRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.AstromechDroidBlueRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ArgesFrogRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.AncientSithLordRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.ATSTRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -106,5 +107,6 @@ public class StarWarsExpansionModEntityRenderers {
 		event.registerEntityRenderer(StarWarsExpansionModEntities.EWOK.get(), EwokRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.PORG.get(), PorgRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.BALL_DROID.get(), BallDroidRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.ANCIENT_SITH_LORD.get(), AncientSithLordRenderer::new);
 	}
 }

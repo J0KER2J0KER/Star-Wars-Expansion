@@ -46,6 +46,7 @@ public class StarWarsExpansionModTabs {
 				tabData.accept(StarWarsExpansionModItems.GREEN_DOUBLE_LIGHTSABER_CLOSED.get());
 				tabData.accept(StarWarsExpansionModItems.YELLOW_DOUBLE_LIGHTSABER_CLOSED.get());
 				tabData.accept(StarWarsExpansionModItems.PURPLE_DOUBLE_LIGHTSABER_CLOSED.get());
+				tabData.accept(StarWarsExpansionModItems.ANCIENT_SITH_LORD_MASK_HELMET.get());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> TROOPER_TAB = REGISTRY.register("trooper_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars_expansion.trooper_tab")).icon(() -> new ItemStack(StarWarsExpansionModItems.CLONE_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {
@@ -157,6 +158,7 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModItems.PIRATE_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.EWOK_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.PORG_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.ANCIENT_SITH_LORD_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SAND.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SANDSTONE.get().asItem());

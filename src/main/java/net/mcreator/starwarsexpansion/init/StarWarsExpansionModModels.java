@@ -20,11 +20,13 @@ import net.mcreator.starwarsexpansion.client.model.Modeldooniumarmor;
 import net.mcreator.starwarsexpansion.client.model.Modelclonebase;
 import net.mcreator.starwarsexpansion.client.model.Modelbeskararmor;
 import net.mcreator.starwarsexpansion.client.model.Modelband;
+import net.mcreator.starwarsexpansion.client.model.Modelancientsithmask;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class StarWarsExpansionModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelancientsithmask.LAYER_LOCATION, Modelancientsithmask::createBodyLayer);
 		event.registerLayerDefinition(Modellaser.LAYER_LOCATION, Modellaser::createBodyLayer);
 		event.registerLayerDefinition(Modelsnowsuit.LAYER_LOCATION, Modelsnowsuit::createBodyLayer);
 		event.registerLayerDefinition(Modelband.LAYER_LOCATION, Modelband::createBodyLayer);

@@ -108,6 +108,7 @@ import net.mcreator.starwarsexpansion.item.BB8Item;
 import net.mcreator.starwarsexpansion.item.B1Item;
 import net.mcreator.starwarsexpansion.item.AurodiumIngotItem;
 import net.mcreator.starwarsexpansion.item.ArgesFrogLegItem;
+import net.mcreator.starwarsexpansion.item.AncientSithLordMaskItem;
 import net.mcreator.starwarsexpansion.item.ATSTItemItem;
 import net.mcreator.starwarsexpansion.block.display.WorkspaceBenchDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.StatueDisplayItem;
@@ -299,6 +300,8 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> BB_8 = REGISTRY.register("bb_8", () -> new BB8Item());
 	public static final RegistryObject<Item> RAW_PORG = REGISTRY.register("raw_porg", () -> new RawPorgItem());
 	public static final RegistryObject<Item> COOKED_PORG = REGISTRY.register("cooked_porg", () -> new CookedPorgItem());
+	public static final RegistryObject<Item> ANCIENT_SITH_LORD_SPAWN_EGG = REGISTRY.register("ancient_sith_lord_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.ANCIENT_SITH_LORD, -12111824, -9895936, new Item.Properties()));
+	public static final RegistryObject<Item> ANCIENT_SITH_LORD_MASK_HELMET = REGISTRY.register("ancient_sith_lord_mask_helmet", () -> new AncientSithLordMaskItem.Helmet());
 
 	// Start of user code block custom items
 	// End of user code block custom items

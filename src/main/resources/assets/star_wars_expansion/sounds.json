@@ -314,5 +314,33 @@
         "stream": false
       }
     ]
+  },
+  "sith_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:sith_idle1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:sith_idle2",
+        "stream": false
+      }
+    ]
+  },
+  "force_lightning": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:force_lightning",
+        "stream": false
+      }
+    ]
+  },
+  "sith_death": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:sith_death",
+        "stream": false
+      }
+    ]
   }
 }
