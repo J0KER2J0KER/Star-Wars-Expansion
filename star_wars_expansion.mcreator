@@ -5949,7 +5949,6 @@
         "files": [
           "src/main/resources/assets/star_wars_expansion/models/item/ancient_sith_lord_spawn_egg.json",
           "src/main/java/net/mcreator/starwarsexpansion/entity/AncientSithLordEntity.java",
-          "src/main/resources/data/star_wars_expansion/forge/biome_modifier/ancient_sith_lord_biome_modifier.json",
           "src/main/java/net/mcreator/starwarsexpansion/client/renderer/AncientSithLordRenderer.java",
           "src/main/java/net/mcreator/starwarsexpansion/entity/model/AncientSithLordModel.java",
           "src/main/java/net/mcreator/starwarsexpansion/entity/layer/AncientSithLordLayer.java"
@@ -6744,7 +6743,7 @@
   "workspaceSettings": {
     "modid": "star_wars_expansion",
     "modName": "Star Wars Expansion",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "author": "FazBrick Studios",
     "websiteURL": "https://www.curseforge.com/members/mrfazcraft/projects",
     "license": "All Rights Reserved",
