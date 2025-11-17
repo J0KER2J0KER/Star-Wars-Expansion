@@ -1,212 +1,548 @@
-[28Oct2025 20:54:01.831] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Faz\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[28Oct2025 20:54:01.837] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[28Oct2025 20:54:02.043] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[28Oct2025 20:54:02.274] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[28Oct2025 20:54:02.448] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[28Oct2025 20:54:02.711] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Faz/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[28Oct2025 20:54:02.798] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 32.0.101.7040, Intel
-[28Oct2025 20:54:03.276] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[28Oct2025 20:54:03.280] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[28Oct2025 20:54:03.285] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[28Oct2025 20:54:03.290] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[28Oct2025 20:54:03.514] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[28Oct2025 20:54:05.986] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28Oct2025 20:54:05.993] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Faz\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[28Oct2025 20:54:06.447] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Faz\Desktop\MCreator Package\Instances\star_wars_expansion/build/createSrgToMcp/output.srg
-[28Oct2025 20:54:06.462] [main/INFO] [mixin/]: Remapping refMap player-animation-lib-minecraft_common-refmap.json using C:\Users\Faz\Desktop\MCreator Package\Instances\star_wars_expansion/build/createSrgToMcp/output.srg
-[28Oct2025 20:54:11.850] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 195 milliseconds
-[28Oct2025 20:54:14.132] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Faz/Desktop/MCreator%20Package/Instances/star_wars_expansion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[28Oct2025 20:54:14.133] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Faz/Desktop/MCreator%20Package/Instances/star_wars_expansion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[28Oct2025 20:54:14.160] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Oct2025 20:54:14.169] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[28Oct2025 20:54:14.325] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[28Oct2025 20:54:14.675] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[28Oct2025 20:54:14.678] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[28Oct2025 20:54:17.386] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[28Oct2025 20:54:18.063] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[28Oct2025 20:54:18.415] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[28Oct2025 20:54:18.505] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Oct2025 20:54:19.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
-[28Oct2025 20:54:20.561] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:kolto_tank#inventory:
+[17Nov2025 15:53:53.387] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Faz\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[17Nov2025 15:53:53.391] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[17Nov2025 15:53:53.545] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[17Nov2025 15:53:53.635] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[17Nov2025 15:53:53.740] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[17Nov2025 15:53:53.886] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Faz/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[17Nov2025 15:53:53.891] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 32.0.101.7040, Intel
+[17Nov2025 15:53:54.276] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[17Nov2025 15:53:54.280] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[17Nov2025 15:53:54.283] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[17Nov2025 15:53:54.287] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Faz\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[17Nov2025 15:53:54.474] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[17Nov2025 15:53:56.684] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Nov2025 15:53:56.691] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Faz\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[17Nov2025 15:53:57.148] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\Faz\Desktop\MCreator Package\Instances\star_wars_expansion/build/createSrgToMcp/output.srg
+[17Nov2025 15:53:57.161] [main/INFO] [mixin/]: Remapping refMap player-animation-lib-minecraft_common-refmap.json using C:\Users\Faz\Desktop\MCreator Package\Instances\star_wars_expansion/build/createSrgToMcp/output.srg
+[17Nov2025 15:54:02.114] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 191 milliseconds
+[17Nov2025 15:54:04.579] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Faz/Desktop/MCreator%20Package/Instances/star_wars_expansion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[17Nov2025 15:54:04.580] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Faz/Desktop/MCreator%20Package/Instances/star_wars_expansion/build/fg_cache/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[17Nov2025 15:54:04.600] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Nov2025 15:54:04.608] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[17Nov2025 15:54:04.761] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[17Nov2025 15:54:05.071] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[17Nov2025 15:54:05.073] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[17Nov2025 15:54:07.296] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[17Nov2025 15:54:07.877] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[17Nov2025 15:54:08.126] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17Nov2025 15:54:08.211] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Nov2025 15:54:08.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:kolto_tank#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/koltotank
-[28Oct2025 20:54:20.562] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:computer_station#inventory:
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:computer_station#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/computerstation
-[28Oct2025 20:54:20.562] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:dl_44#inventory:
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:dl_44#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/dl44
-[28Oct2025 20:54:20.563] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_station#inventory:
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_station#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/controlstation
-[28Oct2025 20:54:20.563] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_yellow#inventory:
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_yellow#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.563] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_red#inventory:
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_red#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.563] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_purple#inventory:
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_purple#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.563] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_purple#inventory:
+[17Nov2025 15:54:09.951] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_purple#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.563] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:blaster_e_11#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:blaster_e_11#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/blaster
-[28Oct2025 20:54:20.563] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_yellow#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_yellow#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_green#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_green#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:ee_3#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:ee_3#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/ee3
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:tie_fighter_item#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:tie_fighter_item#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/tie_fighter
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:escape_pod_item#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:escape_pod_item#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/escapepod
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:westar_34#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:westar_34#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/westar
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:landspeeder_item#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:landspeeder_item#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/speeder
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lighstaner_geo_red#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lighstaner_geo_red#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.564] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_green#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_green#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_panel#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_panel#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/panel
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:moisture_vaporator#inventory:
+[17Nov2025 15:54:09.952] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:moisture_vaporator#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/water_vaporizer
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:workspace_bench#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:workspace_bench#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/bench
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:speeder_bike_item#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:speeder_bike_item#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/speederbike
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:statue#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:statue#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/holocron_block
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:atst_item#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:atst_item#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/atst
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_geo#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_geo#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:snowspeeder_item#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:snowspeeder_item#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/snowspeeder
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
-[28Oct2025 20:54:20.565] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:x_wing_item#inventory:
+[17Nov2025 15:54:09.953] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:x_wing_item#inventory:
     minecraft:textures/atlas/blocks.png:minecraft:item/xwing
-[28Oct2025 20:54:21.853] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[28Oct2025 20:54:21.853] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[28Oct2025 20:54:21.973] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (High Definition Audio Device)
-[28Oct2025 20:54:21.975] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[28Oct2025 20:54:22.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
-[28Oct2025 20:54:22.205] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
-[28Oct2025 20:54:22.207] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[28Oct2025 20:54:22.211] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[28Oct2025 20:54:22.215] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[28Oct2025 20:54:22.243] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
-[28Oct2025 20:54:22.245] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[28Oct2025 20:54:22.247] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[28Oct2025 20:54:22.249] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
-[28Oct2025 20:54:22.551] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[28Oct2025 20:54:22.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
-[28Oct2025 20:54:22.681] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[28Oct2025 20:54:22.684] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[28Oct2025 20:54:23.261] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[28Oct2025 20:54:33.256] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[28Oct2025 20:54:33.386] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[28Oct2025 20:54:54.796] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[28Oct2025 20:54:54.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Oct2025 20:54:54.907] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\TEST1\serverconfig\forge-server.toml is not correct. Correcting
-[28Oct2025 20:54:54.910] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[28Oct2025 20:54:54.910] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[28Oct2025 20:54:54.911] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[28Oct2025 20:54:54.911] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[28Oct2025 20:54:54.911] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[28Oct2025 20:54:54.912] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[28Oct2025 20:54:54.912] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[28Oct2025 20:54:54.912] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[28Oct2025 20:55:00.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Oct2025 20:55:00.794] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Oct2025 20:55:00.794] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Oct2025 20:55:01.101] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Oct2025 20:55:01.598] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Oct2025 20:55:02.108] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[28Oct2025 20:55:02.601] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[28Oct2025 20:55:03.094] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[28Oct2025 20:55:03.590] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[28Oct2025 20:55:04.090] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[28Oct2025 20:55:04.590] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[28Oct2025 20:55:05.093] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[28Oct2025 20:55:05.595] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[28Oct2025 20:55:06.104] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[28Oct2025 20:55:06.602] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[28Oct2025 20:55:07.102] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[28Oct2025 20:55:07.685] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[28Oct2025 20:55:08.090] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[28Oct2025 20:55:08.589] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[28Oct2025 20:55:09.121] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
-[28Oct2025 20:55:09.594] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[28Oct2025 20:55:10.090] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[28Oct2025 20:55:10.601] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
-[28Oct2025 20:55:11.099] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[28Oct2025 20:55:11.599] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[28Oct2025 20:55:12.101] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[28Oct2025 20:55:12.600] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[28Oct2025 20:55:13.102] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[28Oct2025 20:55:13.593] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[28Oct2025 20:55:14.091] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[28Oct2025 20:55:14.601] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[28Oct2025 20:55:15.097] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[28Oct2025 20:55:15.595] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[28Oct2025 20:55:16.095] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[28Oct2025 20:55:16.603] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[28Oct2025 20:55:16.779] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Oct2025 20:55:16.785] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 16697 ms
-[28Oct2025 20:55:17.011] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 8, from 10
-[28Oct2025 20:55:17.013] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
-[28Oct2025 20:55:17.158] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[28Oct2025 20:55:18.561] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[28Oct2025 20:55:18.609] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:dc8ac7e1] logged in with entity id 258 at (-19.5, 72.0, -53.5)
-[28Oct2025 20:55:18.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[28Oct2025 20:55:19.476] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[28Oct2025 20:55:24.143] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unknown or incomplete command, see below for error
-[28Oct2025 20:55:24.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] TIME SET NIGHT<--[HERE]
-[28Oct2025 20:55:29.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 13000]
-[28Oct2025 20:55:29.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 13000
-[28Oct2025 20:55:31.930] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28Oct2025 20:55:31.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
-[28Oct2025 20:55:32.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
-[28Oct2025 20:55:32.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
-[28Oct2025 20:55:32.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
-[28Oct2025 20:55:32.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
-[28Oct2025 20:55:32.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
-[28Oct2025 20:55:40.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 20000]
-[28Oct2025 20:55:40.563] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 20000
-[28Oct2025 20:56:03.648] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
-[28Oct2025 20:56:20.253] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
-[28Oct2025 20:57:26.245] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
-[28Oct2025 20:57:46.930] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28Oct2025 20:57:46.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
-[28Oct2025 20:57:46.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
-[28Oct2025 20:57:46.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
-[28Oct2025 20:57:46.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
-[28Oct2025 20:57:46.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
-[28Oct2025 20:57:46.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
-[28Oct2025 20:57:49.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 2000]
-[28Oct2025 20:57:49.381] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 2000
-[28Oct2025 20:58:04.831] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28Oct2025 20:58:04.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
-[28Oct2025 20:58:04.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
-[28Oct2025 20:58:04.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
-[28Oct2025 20:58:04.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
-[28Oct2025 20:58:04.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
-[28Oct2025 20:58:04.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
-[28Oct2025 20:58:17.829] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[28Oct2025 20:58:17.847] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[28Oct2025 20:58:17.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[28Oct2025 20:58:17.868] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[28Oct2025 20:58:17.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28Oct2025 20:58:17.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28Oct2025 20:58:17.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28Oct2025 20:58:19.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
-[28Oct2025 20:58:21.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
-[28Oct2025 20:58:21.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
-[28Oct2025 20:58:21.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
-[28Oct2025 20:58:21.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
-[28Oct2025 20:58:21.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
-[28Oct2025 20:58:21.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TEST1): All chunks are saved
-[28Oct2025 20:58:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endor): All chunks are saved
-[28Oct2025 20:58:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (hoth): All chunks are saved
-[28Oct2025 20:58:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28Oct2025 20:58:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28Oct2025 20:58:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tatooine): All chunks are saved
-[28Oct2025 20:58:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17Nov2025 15:54:11.275] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[17Nov2025 15:54:11.275] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17Nov2025 15:54:11.333] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (High Definition Audio Device)
+[17Nov2025 15:54:11.334] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Nov2025 15:54:11.465] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[17Nov2025 15:54:11.595] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[17Nov2025 15:54:11.597] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Nov2025 15:54:11.601] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Nov2025 15:54:11.604] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[17Nov2025 15:54:11.637] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[17Nov2025 15:54:11.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Nov2025 15:54:11.640] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[17Nov2025 15:54:11.642] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Nov2025 15:54:11.892] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17Nov2025 15:54:12.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[17Nov2025 15:54:12.024] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Nov2025 15:54:12.026] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Nov2025 15:54:12.491] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[17Nov2025 15:55:28.494] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[17Nov2025 15:55:30.771] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[17Nov2025 15:55:30.873] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[17Nov2025 15:55:31.392] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[17Nov2025 15:55:31.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Nov2025 15:55:31.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Nov2025 15:55:34.168] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Nov2025 15:55:34.168] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Nov2025 15:55:34.168] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Nov2025 15:55:34.169] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Nov2025 15:55:34.169] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Nov2025 15:55:34.427] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[17Nov2025 15:55:34.925] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[17Nov2025 15:55:35.139] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17Nov2025 15:55:35.148] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3232 ms
+[17Nov2025 15:55:35.272] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 8, from 10
+[17Nov2025 15:55:35.275] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
+[17Nov2025 15:55:35.398] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[17Nov2025 15:55:35.909] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[17Nov2025 15:55:36.032] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:5886ff4d] logged in with entity id 1 at (338.1835522316643, -60.0, -491.7471761333152)
+[17Nov2025 15:55:36.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[17Nov2025 15:55:36.908] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 78 advancements
+[17Nov2025 15:55:53.391] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Nov2025 15:55:53.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
+[17Nov2025 15:55:53.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
+[17Nov2025 15:55:53.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
+[17Nov2025 15:55:53.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
+[17Nov2025 15:55:53.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
+[17Nov2025 15:55:53.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
+[17Nov2025 15:56:15.028] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[17Nov2025 15:56:15.034] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17Nov2025 15:56:16.343] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:kolto_tank#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/koltotank
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:computer_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/computerstation
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:dl_44#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dl44
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/controlstation
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:blaster_e_11#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/blaster
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:ee_3#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/ee3
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:tie_fighter_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/tie_fighter
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:escape_pod_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/escapepod
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:westar_34#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/westar
+[17Nov2025 15:56:16.344] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:landspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speeder
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lighstaner_geo_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_panel#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/panel
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:moisture_vaporator#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/water_vaporizer
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:workspace_bench#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bench
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:speeder_bike_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speederbike
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:statue#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/holocron_block
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:atst_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/atst
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:snowspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/snowspeeder
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:16.345] [Worker-Main-9/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:x_wing_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/xwing
+[17Nov2025 15:56:16.491] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[17Nov2025 15:56:16.492] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17Nov2025 15:56:16.528] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (High Definition Audio Device)
+[17Nov2025 15:56:16.529] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Nov2025 15:56:16.673] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[17Nov2025 15:56:16.770] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[17Nov2025 15:56:16.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Nov2025 15:56:16.782] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Nov2025 15:56:16.788] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[17Nov2025 15:56:16.822] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[17Nov2025 15:56:16.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Nov2025 15:56:16.825] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[17Nov2025 15:56:16.827] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Nov2025 15:56:16.900] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17Nov2025 15:56:17.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[17Nov2025 15:56:17.131] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Nov2025 15:56:17.134] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Nov2025 15:56:23.940] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Nov2025 15:56:23.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
+[17Nov2025 15:56:23.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
+[17Nov2025 15:56:23.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
+[17Nov2025 15:56:23.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
+[17Nov2025 15:56:23.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
+[17Nov2025 15:56:23.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
+[17Nov2025 15:56:29.036] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[17Nov2025 15:56:29.039] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17Nov2025 15:56:29.948] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:kolto_tank#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/koltotank
+[17Nov2025 15:56:29.948] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:computer_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/computerstation
+[17Nov2025 15:56:29.948] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:dl_44#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dl44
+[17Nov2025 15:56:29.948] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/controlstation
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:blaster_e_11#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/blaster
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:ee_3#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/ee3
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:tie_fighter_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/tie_fighter
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:escape_pod_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/escapepod
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:westar_34#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/westar
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:landspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speeder
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lighstaner_geo_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_panel#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/panel
+[17Nov2025 15:56:29.949] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:moisture_vaporator#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/water_vaporizer
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:workspace_bench#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bench
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:speeder_bike_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speederbike
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:statue#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/holocron_block
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:atst_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/atst
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:snowspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/snowspeeder
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:29.950] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:x_wing_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/xwing
+[17Nov2025 15:56:30.111] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[17Nov2025 15:56:30.111] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17Nov2025 15:56:30.144] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (High Definition Audio Device)
+[17Nov2025 15:56:30.144] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Nov2025 15:56:30.239] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[17Nov2025 15:56:30.271] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[17Nov2025 15:56:30.272] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Nov2025 15:56:30.274] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Nov2025 15:56:30.276] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[17Nov2025 15:56:30.301] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[17Nov2025 15:56:30.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Nov2025 15:56:30.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[17Nov2025 15:56:30.304] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Nov2025 15:56:30.362] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17Nov2025 15:56:30.501] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[17Nov2025 15:56:30.509] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Nov2025 15:56:30.511] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Nov2025 15:56:40.793] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[17Nov2025 15:56:40.796] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17Nov2025 15:56:41.839] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:kolto_tank#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/koltotank
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:computer_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/computerstation
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:dl_44#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dl44
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/controlstation
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:blaster_e_11#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/blaster
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:ee_3#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/ee3
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:tie_fighter_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/tie_fighter
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:escape_pod_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/escapepod
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:westar_34#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/westar
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:landspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speeder
+[17Nov2025 15:56:41.840] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lighstaner_geo_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_panel#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/panel
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:moisture_vaporator#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/water_vaporizer
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:workspace_bench#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bench
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:speeder_bike_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speederbike
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:statue#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/holocron_block
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:atst_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/atst
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:snowspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/snowspeeder
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:56:41.841] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:x_wing_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/xwing
+[17Nov2025 15:56:41.961] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[17Nov2025 15:56:41.961] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17Nov2025 15:56:42.003] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (High Definition Audio Device)
+[17Nov2025 15:56:42.004] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Nov2025 15:56:42.096] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[17Nov2025 15:56:42.131] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[17Nov2025 15:56:42.132] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Nov2025 15:56:42.133] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Nov2025 15:56:42.135] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[17Nov2025 15:56:42.153] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[17Nov2025 15:56:42.154] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Nov2025 15:56:42.155] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[17Nov2025 15:56:42.157] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Nov2025 15:56:42.239] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17Nov2025 15:56:42.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[17Nov2025 15:56:42.410] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Nov2025 15:56:42.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Nov2025 15:57:22.259] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[17Nov2025 15:57:22.265] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:kolto_tank#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/koltotank
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:computer_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/computerstation
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:dl_44#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dl44
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/controlstation
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:blaster_e_11#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/blaster
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:ee_3#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/ee3
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:tie_fighter_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/tie_fighter
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:escape_pod_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/escapepod
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:westar_34#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/westar
+[17Nov2025 15:57:23.177] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:landspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speeder
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lighstaner_geo_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_panel#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/panel
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:moisture_vaporator#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/water_vaporizer
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:workspace_bench#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bench
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:speeder_bike_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speederbike
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:statue#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/holocron_block
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:atst_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/atst
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:snowspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/snowspeeder
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:23.178] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:x_wing_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/xwing
+[17Nov2025 15:57:23.313] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[17Nov2025 15:57:23.313] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17Nov2025 15:57:23.345] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (High Definition Audio Device)
+[17Nov2025 15:57:23.346] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Nov2025 15:57:23.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[17Nov2025 15:57:23.457] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[17Nov2025 15:57:23.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Nov2025 15:57:23.459] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Nov2025 15:57:23.462] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[17Nov2025 15:57:23.492] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[17Nov2025 15:57:23.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Nov2025 15:57:23.495] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[17Nov2025 15:57:23.497] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Nov2025 15:57:23.549] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17Nov2025 15:57:23.700] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[17Nov2025 15:57:23.711] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Nov2025 15:57:23.713] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Nov2025 15:57:34.790] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Nov2025 15:57:34.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
+[17Nov2025 15:57:34.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
+[17Nov2025 15:57:34.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
+[17Nov2025 15:57:34.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
+[17Nov2025 15:57:34.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
+[17Nov2025 15:57:34.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
+[17Nov2025 15:57:43.403] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[17Nov2025 15:57:43.406] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:kolto_tank#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/koltotank
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:computer_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/computerstation
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:dl_44#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dl44
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_station#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/controlstation
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_purple#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:blaster_e_11#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/blaster
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_yellow#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:ee_3#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/ee3
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:tie_fighter_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/tie_fighter
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:escape_pod_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/escapepod
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:westar_34#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/westar
+[17Nov2025 15:57:44.370] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:landspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speeder
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lighstaner_geo_red#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo_green#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:control_panel#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/panel
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:moisture_vaporator#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/water_vaporizer
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:workspace_bench#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bench
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:speeder_bike_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/speederbike
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:statue#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/holocron_block
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:atst_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/atst
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:double_lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:snowspeeder_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/snowspeeder
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:lightsaber_geo#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/lightsaber_blue
+[17Nov2025 15:57:44.371] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model star_wars_expansion:x_wing_item#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/xwing
+[17Nov2025 15:57:44.494] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[17Nov2025 15:57:44.495] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17Nov2025 15:57:44.534] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (High Definition Audio Device)
+[17Nov2025 15:57:44.535] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17Nov2025 15:57:44.625] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[17Nov2025 15:57:44.656] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[17Nov2025 15:57:44.657] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[17Nov2025 15:57:44.658] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[17Nov2025 15:57:44.660] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[17Nov2025 15:57:44.682] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[17Nov2025 15:57:44.683] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[17Nov2025 15:57:44.684] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[17Nov2025 15:57:44.685] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17Nov2025 15:57:44.748] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17Nov2025 15:57:44.884] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[17Nov2025 15:57:44.893] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17Nov2025 15:57:44.894] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17Nov2025 15:58:34.990] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Nov2025 15:58:35.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
+[17Nov2025 15:58:35.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
+[17Nov2025 15:58:35.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
+[17Nov2025 15:58:35.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
+[17Nov2025 15:58:35.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
+[17Nov2025 15:58:35.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
+[17Nov2025 15:58:35.455] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[17Nov2025 15:58:35.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[17Nov2025 15:58:35.479] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[17Nov2025 15:58:35.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Nov2025 15:58:35.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Nov2025 15:58:35.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Nov2025 15:58:36.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:overworld
+[17Nov2025 15:58:36.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:endor
+[17Nov2025 15:58:36.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_end
+[17Nov2025 15:58:36.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:hoth
+[17Nov2025 15:58:36.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/star_wars_expansion:tatooine
+[17Nov2025 15:58:36.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[TEST1]'/minecraft:the_nether
+[17Nov2025 15:58:36.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (TEST1): All chunks are saved
+[17Nov2025 15:58:36.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endor): All chunks are saved
+[17Nov2025 15:58:36.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Nov2025 15:58:36.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (hoth): All chunks are saved
+[17Nov2025 15:58:36.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tatooine): All chunks are saved
+[17Nov2025 15:58:36.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Nov2025 15:58:36.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17Nov2025 15:58:37.672] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

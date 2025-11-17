@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.starwarsexpansion.entity.XWingEntity;
+import net.mcreator.starwarsexpansion.entity.WampaEntity;
 import net.mcreator.starwarsexpansion.entity.TwiLekPinkEntity;
 import net.mcreator.starwarsexpansion.entity.TwiLekOrangeEntity;
 import net.mcreator.starwarsexpansion.entity.TwiLekDefaultEntity;
@@ -53,7 +54,9 @@ import net.mcreator.starwarsexpansion.entity.GamorreanEntity;
 import net.mcreator.starwarsexpansion.entity.EwokEntity;
 import net.mcreator.starwarsexpansion.entity.EscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.EnemyLaserProjectileEntity;
+import net.mcreator.starwarsexpansion.entity.CantinaBandEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
+import net.mcreator.starwarsexpansion.entity.BrainWalkerEntity;
 import net.mcreator.starwarsexpansion.entity.BattleDroidEntity;
 import net.mcreator.starwarsexpansion.entity.BanthaEntity;
 import net.mcreator.starwarsexpansion.entity.BallDroidEntity;
@@ -214,6 +217,18 @@ public class StarWarsExpansionModEntities {
 			EntityType.Builder.<BallDroidEntity>of(BallDroidEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BallDroidEntity::new).fireImmune().sized(0.5f, 1f));
 	public static final RegistryObject<EntityType<AncientSithLordEntity>> ANCIENT_SITH_LORD = register("ancient_sith_lord", EntityType.Builder.<AncientSithLordEntity>of(AncientSithLordEntity::new, MobCategory.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AncientSithLordEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CantinaBandEntity>> CANTINA_BAND = register("cantina_band",
+			EntityType.Builder.<CantinaBandEntity>of(CantinaBandEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CantinaBandEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BrainWalkerEntity>> BRAIN_WALKER = register("brain_walker",
+			EntityType.Builder.<BrainWalkerEntity>of(BrainWalkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BrainWalkerEntity::new)
+
+					.sized(0.6f, 1.2f));
+	public static final RegistryObject<EntityType<WampaEntity>> WAMPA = register("wampa",
+			EntityType.Builder.<WampaEntity>of(WampaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WampaEntity::new)
+
+					.sized(0.6f, 3f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -269,6 +284,9 @@ public class StarWarsExpansionModEntities {
 			PorgEntity.init();
 			BallDroidEntity.init();
 			AncientSithLordEntity.init();
+			CantinaBandEntity.init();
+			BrainWalkerEntity.init();
+			WampaEntity.init();
 		});
 	}
 
@@ -319,5 +337,8 @@ public class StarWarsExpansionModEntities {
 		event.put(PORG.get(), PorgEntity.createAttributes().build());
 		event.put(BALL_DROID.get(), BallDroidEntity.createAttributes().build());
 		event.put(ANCIENT_SITH_LORD.get(), AncientSithLordEntity.createAttributes().build());
+		event.put(CANTINA_BAND.get(), CantinaBandEntity.createAttributes().build());
+		event.put(BRAIN_WALKER.get(), BrainWalkerEntity.createAttributes().build());
+		event.put(WAMPA.get(), WampaEntity.createAttributes().build());
 	}
 }

@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.starwarsexpansion.client.renderer.XWingRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.WampaRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.TwiLekPinkRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.TwiLekOrangeRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.TwiLekDefaultRenderer;
@@ -46,7 +47,9 @@ import net.mcreator.starwarsexpansion.client.renderer.GamorreanRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.EwokRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.EscapePodRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.EnemyLaserProjectileRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.CantinaBandRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BrokenEscapePodRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.BrainWalkerRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BattleDroidRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BanthaRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BallDroidRenderer;
@@ -108,5 +111,8 @@ public class StarWarsExpansionModEntityRenderers {
 		event.registerEntityRenderer(StarWarsExpansionModEntities.PORG.get(), PorgRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.BALL_DROID.get(), BallDroidRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.ANCIENT_SITH_LORD.get(), AncientSithLordRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.CANTINA_BAND.get(), CantinaBandRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.BRAIN_WALKER.get(), BrainWalkerRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.WAMPA.get(), WampaRenderer::new);
 	}
 }

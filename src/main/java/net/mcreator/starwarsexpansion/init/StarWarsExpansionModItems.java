@@ -93,6 +93,7 @@ import net.mcreator.starwarsexpansion.item.CloneArmorItem;
 import net.mcreator.starwarsexpansion.item.CloneArmor501Item;
 import net.mcreator.starwarsexpansion.item.CloneArmor41Item;
 import net.mcreator.starwarsexpansion.item.CloneArmor212Item;
+import net.mcreator.starwarsexpansion.item.CantinaMusicItem;
 import net.mcreator.starwarsexpansion.item.C3POItem;
 import net.mcreator.starwarsexpansion.item.BrownJediClothesItem;
 import net.mcreator.starwarsexpansion.item.BlueLightsaberClosedItem;
@@ -302,6 +303,10 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> COOKED_PORG = REGISTRY.register("cooked_porg", () -> new CookedPorgItem());
 	public static final RegistryObject<Item> ANCIENT_SITH_LORD_SPAWN_EGG = REGISTRY.register("ancient_sith_lord_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.ANCIENT_SITH_LORD, -12111824, -9895936, new Item.Properties()));
 	public static final RegistryObject<Item> ANCIENT_SITH_LORD_MASK_HELMET = REGISTRY.register("ancient_sith_lord_mask_helmet", () -> new AncientSithLordMaskItem.Helmet());
+	public static final RegistryObject<Item> CANTINA_BAND_SPAWN_EGG = REGISTRY.register("cantina_band_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.CANTINA_BAND, -154, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> CANTINA_MUSIC = REGISTRY.register("cantina_music", () -> new CantinaMusicItem());
+	public static final RegistryObject<Item> BRAIN_WALKER_SPAWN_EGG = REGISTRY.register("brain_walker_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.BRAIN_WALKER, -16777216, -26368, new Item.Properties()));
+	public static final RegistryObject<Item> WAMPA_SPAWN_EGG = REGISTRY.register("wampa_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.WAMPA, -1, -8158240, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

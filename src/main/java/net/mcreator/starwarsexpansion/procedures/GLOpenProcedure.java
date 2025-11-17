@@ -1,5 +1,6 @@
 package net.mcreator.starwarsexpansion.procedures;
 
+import net.mcreator.starwarsexpansion.item.LightsaberGeoGreenItem;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.LevelAccessor;
@@ -22,7 +23,11 @@ public class GLOpenProcedure {
 		if (entity instanceof LivingEntity _entity) {
 			ItemStack _setstack = new ItemStack(StarWarsExpansionModItems.GREEN_LIGHTSABER_CLOSED.get()).copy();
 			_setstack.setCount(1);
-			_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
+			if(((LivingEntity) entity).getItemInHand(InteractionHand.MAIN_HAND).getItem() instanceof LightsaberGeoGreenItem) {
+				_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
+			}else {
+				_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack);
+			}
 			if (_entity instanceof Player _player)
 				_player.getInventory().setChanged();
 		}

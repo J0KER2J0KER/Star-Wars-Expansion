@@ -49,4 +49,5 @@ public class StarWarsExpansionModSounds {
 	public static final RegistryObject<SoundEvent> SITH_IDLE = REGISTRY.register("sith_idle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "sith_idle")));
 	public static final RegistryObject<SoundEvent> FORCE_LIGHTNING = REGISTRY.register("force_lightning", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "force_lightning")));
 	public static final RegistryObject<SoundEvent> SITH_DEATH = REGISTRY.register("sith_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "sith_death")));
+	public static final RegistryObject<SoundEvent> CANTINA_MUSIC = REGISTRY.register("cantina_music", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("star_wars_expansion", "cantina_music")));
 }

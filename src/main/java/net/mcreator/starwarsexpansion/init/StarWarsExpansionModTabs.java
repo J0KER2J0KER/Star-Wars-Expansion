@@ -114,6 +114,7 @@ public class StarWarsExpansionModTabs {
 				tabData.accept(StarWarsExpansionModItems.AURODIUM_INGOT.get());
 				tabData.accept(StarWarsExpansionModItems.RAW_PORG.get());
 				tabData.accept(StarWarsExpansionModItems.COOKED_PORG.get());
+				tabData.accept(StarWarsExpansionModItems.CANTINA_MUSIC.get());
 			}).withTabsBefore(TROOPER_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> DROID_TAB = REGISTRY.register("droid_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars_expansion.droid_tab")).icon(() -> new ItemStack(StarWarsExpansionModItems.R_2_D_2.get())).displayItems((parameters, tabData) -> {
@@ -159,6 +160,9 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModItems.EWOK_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.PORG_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.ANCIENT_SITH_LORD_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.CANTINA_BAND_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.BRAIN_WALKER_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.WAMPA_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SAND.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SANDSTONE.get().asItem());

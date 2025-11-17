@@ -342,5 +342,13 @@
         "stream": false
       }
     ]
+  },
+  "cantina_music": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:cantina_music",
+        "stream": true
+      }
+    ]
   }
 }

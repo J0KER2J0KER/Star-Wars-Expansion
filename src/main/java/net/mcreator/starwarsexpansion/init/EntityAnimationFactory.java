@@ -5,6 +5,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
 import net.mcreator.starwarsexpansion.entity.XWingEntity;
+import net.mcreator.starwarsexpansion.entity.WampaEntity;
 import net.mcreator.starwarsexpansion.entity.TwiLekPinkEntity;
 import net.mcreator.starwarsexpansion.entity.TwiLekOrangeEntity;
 import net.mcreator.starwarsexpansion.entity.TwiLekDefaultEntity;
@@ -39,7 +40,9 @@ import net.mcreator.starwarsexpansion.entity.GonkDroidEntity;
 import net.mcreator.starwarsexpansion.entity.GamorreanEntity;
 import net.mcreator.starwarsexpansion.entity.EwokEntity;
 import net.mcreator.starwarsexpansion.entity.EscapePodEntity;
+import net.mcreator.starwarsexpansion.entity.CantinaBandEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
+import net.mcreator.starwarsexpansion.entity.BrainWalkerEntity;
 import net.mcreator.starwarsexpansion.entity.BattleDroidEntity;
 import net.mcreator.starwarsexpansion.entity.BanthaEntity;
 import net.mcreator.starwarsexpansion.entity.BallDroidEntity;
@@ -364,6 +367,27 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof AncientSithLordEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof CantinaBandEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BrainWalkerEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof WampaEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
