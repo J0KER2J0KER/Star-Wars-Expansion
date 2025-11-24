@@ -19,6 +19,7 @@ import net.mcreator.starwarsexpansion.block.entity.HolocronTileEntity;
 import net.mcreator.starwarsexpansion.block.entity.ControlStationTileEntity;
 import net.mcreator.starwarsexpansion.block.entity.ControlPanelTileEntity;
 import net.mcreator.starwarsexpansion.block.entity.ComputerStationTileEntity;
+import net.mcreator.starwarsexpansion.block.entity.CarboniteTileEntity;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
 
 public class StarWarsExpansionModBlockEntities {
@@ -36,6 +37,7 @@ public class StarWarsExpansionModBlockEntities {
 	public static final RegistryObject<BlockEntityType<ControlStationTileEntity>> CONTROL_STATION = REGISTRY.register("control_station",
 			() -> BlockEntityType.Builder.of(ControlStationTileEntity::new, StarWarsExpansionModBlocks.CONTROL_STATION.get()).build(null));
 	public static final RegistryObject<BlockEntityType<KoltoTankTileEntity>> KOLTO_TANK = REGISTRY.register("kolto_tank", () -> BlockEntityType.Builder.of(KoltoTankTileEntity::new, StarWarsExpansionModBlocks.KOLTO_TANK.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CarboniteTileEntity>> CARBONITE = REGISTRY.register("carbonite", () -> BlockEntityType.Builder.of(CarboniteTileEntity::new, StarWarsExpansionModBlocks.CARBONITE.get()).build(null));
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

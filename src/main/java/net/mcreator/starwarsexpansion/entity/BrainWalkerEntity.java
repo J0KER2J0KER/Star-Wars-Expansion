@@ -87,7 +87,7 @@ public class BrainWalkerEntity extends PathfinderMob implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(3, new FloatGoal(this));
 	}

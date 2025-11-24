@@ -5,8 +5,8 @@
     "structure": "pirateship",
     "projection": "rigid",
     "ignoredBlocks": [],
-    "spacing": 64,
-    "separation": 16,
+    "spacing": 66,
+    "separation": 15,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:TatooineDesert"

@@ -22,6 +22,7 @@ import net.mcreator.starwarsexpansion.client.renderer.TIEFighterRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.T3M4Renderer;
 import net.mcreator.starwarsexpansion.client.renderer.SpeederBikeRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.SnowspeederRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.SkiffGuardRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.RodianRedRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.RodianGreenRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.RodianDefaultRenderer;
@@ -50,6 +51,7 @@ import net.mcreator.starwarsexpansion.client.renderer.EnemyLaserProjectileRender
 import net.mcreator.starwarsexpansion.client.renderer.CantinaBandRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BrokenEscapePodRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BrainWalkerRenderer;
+import net.mcreator.starwarsexpansion.client.renderer.BibFortunaRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BattleDroidRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BanthaRenderer;
 import net.mcreator.starwarsexpansion.client.renderer.BallDroidRenderer;
@@ -114,5 +116,7 @@ public class StarWarsExpansionModEntityRenderers {
 		event.registerEntityRenderer(StarWarsExpansionModEntities.CANTINA_BAND.get(), CantinaBandRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.BRAIN_WALKER.get(), BrainWalkerRenderer::new);
 		event.registerEntityRenderer(StarWarsExpansionModEntities.WAMPA.get(), WampaRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.SKIFF_GUARD.get(), SkiffGuardRenderer::new);
+		event.registerEntityRenderer(StarWarsExpansionModEntities.BIB_FORTUNA.get(), BibFortunaRenderer::new);
 	}
 }

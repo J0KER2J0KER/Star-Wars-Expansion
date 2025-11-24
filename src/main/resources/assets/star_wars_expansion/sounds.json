@@ -350,5 +350,21 @@
         "stream": true
       }
     ]
+  },
+  "hutt_idle": {
+    "sounds": [
+      {
+        "name": "star_wars_expansion:hutt_idle_1",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:hutt_idle_2",
+        "stream": false
+      },
+      {
+        "name": "star_wars_expansion:hutt_idle_3",
+        "stream": false
+      }
+    ]
   }
 }

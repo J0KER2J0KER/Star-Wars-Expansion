@@ -31,6 +31,7 @@ import net.mcreator.starwarsexpansion.item.StabilizerMaskItem;
 import net.mcreator.starwarsexpansion.item.SpeederBikeItemItem;
 import net.mcreator.starwarsexpansion.item.SnowspeederItemItem;
 import net.mcreator.starwarsexpansion.item.SnowSuitItem;
+import net.mcreator.starwarsexpansion.item.SkiffArmorItem;
 import net.mcreator.starwarsexpansion.item.SithClothesItem;
 import net.mcreator.starwarsexpansion.item.SaberHandleItem;
 import net.mcreator.starwarsexpansion.item.SaberEmitterItem;
@@ -119,6 +120,7 @@ import net.mcreator.starwarsexpansion.block.display.HolocronDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.ControlStationDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.ControlPanelDisplayItem;
 import net.mcreator.starwarsexpansion.block.display.ComputerStationDisplayItem;
+import net.mcreator.starwarsexpansion.block.display.CarboniteDisplayItem;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
 
 public class StarWarsExpansionModItems {
@@ -307,6 +309,14 @@ public class StarWarsExpansionModItems {
 	public static final RegistryObject<Item> CANTINA_MUSIC = REGISTRY.register("cantina_music", () -> new CantinaMusicItem());
 	public static final RegistryObject<Item> BRAIN_WALKER_SPAWN_EGG = REGISTRY.register("brain_walker_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.BRAIN_WALKER, -16777216, -26368, new Item.Properties()));
 	public static final RegistryObject<Item> WAMPA_SPAWN_EGG = REGISTRY.register("wampa_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.WAMPA, -1, -8158240, new Item.Properties()));
+	public static final RegistryObject<Item> KORRIBAN_STONE = block(StarWarsExpansionModBlocks.KORRIBAN_STONE);
+	public static final RegistryObject<Item> KORRIBAN_RUNE_BLOCK = block(StarWarsExpansionModBlocks.KORRIBAN_RUNE_BLOCK);
+	public static final RegistryObject<Item> SKIFF_ARMOR_HELMET = REGISTRY.register("skiff_armor_helmet", () -> new SkiffArmorItem.Helmet());
+	public static final RegistryObject<Item> SKIFF_ARMOR_CHESTPLATE = REGISTRY.register("skiff_armor_chestplate", () -> new SkiffArmorItem.Chestplate());
+	public static final RegistryObject<Item> SKIFF_ARMOR_LEGGINGS = REGISTRY.register("skiff_armor_leggings", () -> new SkiffArmorItem.Leggings());
+	public static final RegistryObject<Item> SKIFF_GUARD_SPAWN_EGG = REGISTRY.register("skiff_guard_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.SKIFF_GUARD, -12039937, -9155799, new Item.Properties()));
+	public static final RegistryObject<Item> BIB_FORTUNA_SPAWN_EGG = REGISTRY.register("bib_fortuna_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsExpansionModEntities.BIB_FORTUNA, -26215, -14400669, new Item.Properties()));
+	public static final RegistryObject<Item> CARBONITE = REGISTRY.register(StarWarsExpansionModBlocks.CARBONITE.getId().getPath(), () -> new CarboniteDisplayItem(StarWarsExpansionModBlocks.CARBONITE.get(), new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

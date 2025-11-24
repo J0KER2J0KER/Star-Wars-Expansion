@@ -35,6 +35,8 @@ import net.mcreator.starwarsexpansion.block.MetalTrapdoorBlock;
 import net.mcreator.starwarsexpansion.block.MetalStairsBlock;
 import net.mcreator.starwarsexpansion.block.MetalSlabBlock;
 import net.mcreator.starwarsexpansion.block.MetalBlockBlock;
+import net.mcreator.starwarsexpansion.block.KorribanStoneBlock;
+import net.mcreator.starwarsexpansion.block.KorribanRuneBlockBlock;
 import net.mcreator.starwarsexpansion.block.KoltoTankBlock;
 import net.mcreator.starwarsexpansion.block.HothStoneBlock;
 import net.mcreator.starwarsexpansion.block.HothSnowBlock;
@@ -46,6 +48,7 @@ import net.mcreator.starwarsexpansion.block.CopperSandstoneOreBlock;
 import net.mcreator.starwarsexpansion.block.ControlStationBlock;
 import net.mcreator.starwarsexpansion.block.ControlPanelBlock;
 import net.mcreator.starwarsexpansion.block.ComputerStationBlock;
+import net.mcreator.starwarsexpansion.block.CarboniteBlock;
 import net.mcreator.starwarsexpansion.block.CantinaLightBlock;
 import net.mcreator.starwarsexpansion.block.AurodiumOreBlock;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
@@ -90,6 +93,9 @@ public class StarWarsExpansionModBlocks {
 	public static final RegistryObject<Block> KOLTO_TANK = REGISTRY.register("kolto_tank", () -> new KoltoTankBlock());
 	public static final RegistryObject<Block> REDWOOD_LOG = REGISTRY.register("redwood_log", () -> new RedwoodLogBlock());
 	public static final RegistryObject<Block> HARDENED_MUD = REGISTRY.register("hardened_mud", () -> new HardenedMudBlock());
+	public static final RegistryObject<Block> KORRIBAN_STONE = REGISTRY.register("korriban_stone", () -> new KorribanStoneBlock());
+	public static final RegistryObject<Block> KORRIBAN_RUNE_BLOCK = REGISTRY.register("korriban_rune_block", () -> new KorribanRuneBlockBlock());
+	public static final RegistryObject<Block> CARBONITE = REGISTRY.register("carbonite", () -> new CarboniteBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,0 +1,100 @@
+{
+  "_fv": 73,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "skiff_guard_helmet",
+    "enableBody": true,
+    "textureBody": "skiff_guard_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "skiff_guard_leggins",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TrooperTab"
+      }
+    ],
+    "armorTextureFile": "chainmail",
+    "helmetName": "§eSkiff Guard Helmet",
+    "bodyName": "§eSkiff Guard Chestplate",
+    "leggingsName": "§eSkiff Guard Leggings",
+    "bootsName": "Brown Jedi Clothes Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelskiff",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "skiff_guard_layer.png",
+    "bodyModelName": "Modelskiff",
+    "bodyModelPart": "body",
+    "armsModelPartL": "left_arm",
+    "armsModelPartR": "right_arm",
+    "bodyModelTexture": "skiff_guard_layer.png",
+    "leggingsModelName": "Modelskiff",
+    "leggingsModelPartL": "right_leg",
+    "leggingsModelPartR": "left_leg",
+    "leggingsModelTexture": "skiff_guard_layer.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 0,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": []
+  }
+}

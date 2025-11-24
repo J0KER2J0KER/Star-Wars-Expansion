@@ -5,8 +5,8 @@
     "structure": "tusken",
     "projection": "rigid",
     "ignoredBlocks": [],
-    "spacing": 20,
-    "separation": 8,
+    "spacing": 27,
+    "separation": 9,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:TatooineDesert"

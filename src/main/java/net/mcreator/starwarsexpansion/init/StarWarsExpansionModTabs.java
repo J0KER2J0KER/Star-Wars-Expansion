@@ -84,6 +84,9 @@ public class StarWarsExpansionModTabs {
 				tabData.accept(StarWarsExpansionModItems.SNOW_SUIT_CHESTPLATE.get());
 				tabData.accept(StarWarsExpansionModItems.SNOW_SUIT_LEGGINGS.get());
 				tabData.accept(StarWarsExpansionModItems.FORCE_PIKE.get());
+				tabData.accept(StarWarsExpansionModItems.SKIFF_ARMOR_HELMET.get());
+				tabData.accept(StarWarsExpansionModItems.SKIFF_ARMOR_CHESTPLATE.get());
+				tabData.accept(StarWarsExpansionModItems.SKIFF_ARMOR_LEGGINGS.get());
 			}).withTabsBefore(FORCE_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> ITEMS_TAB = REGISTRY.register("items_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars_expansion.items_tab")).icon(() -> new ItemStack(StarWarsExpansionModItems.DOONIUM_INGOT.get())).displayItems((parameters, tabData) -> {
@@ -163,6 +166,8 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModItems.CANTINA_BAND_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.BRAIN_WALKER_SPAWN_EGG.get());
 			tabData.accept(StarWarsExpansionModItems.WAMPA_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.SKIFF_GUARD_SPAWN_EGG.get());
+			tabData.accept(StarWarsExpansionModItems.BIB_FORTUNA_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SAND.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.TATOOINE_SANDSTONE.get().asItem());
@@ -195,6 +200,9 @@ public class StarWarsExpansionModTabs {
 			tabData.accept(StarWarsExpansionModBlocks.CONTROL_STATION.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.REDWOOD_LOG.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.HARDENED_MUD.get().asItem());
+			tabData.accept(StarWarsExpansionModBlocks.KORRIBAN_STONE.get().asItem());
+			tabData.accept(StarWarsExpansionModBlocks.KORRIBAN_RUNE_BLOCK.get().asItem());
+			tabData.accept(StarWarsExpansionModBlocks.CARBONITE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE.get().asItem());
 			tabData.accept(StarWarsExpansionModBlocks.MODERN_CRATE_2.get().asItem());

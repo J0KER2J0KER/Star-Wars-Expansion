@@ -15,6 +15,7 @@ import net.mcreator.starwarsexpansion.block.renderer.HolocronTileRenderer;
 import net.mcreator.starwarsexpansion.block.renderer.ControlStationTileRenderer;
 import net.mcreator.starwarsexpansion.block.renderer.ControlPanelTileRenderer;
 import net.mcreator.starwarsexpansion.block.renderer.ComputerStationTileRenderer;
+import net.mcreator.starwarsexpansion.block.renderer.CarboniteTileRenderer;
 import net.mcreator.starwarsexpansion.StarWarsExpansionMod;
 
 @Mod.EventBusSubscriber(modid = StarWarsExpansionMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -30,5 +31,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(StarWarsExpansionModBlockEntities.COMPUTER_STATION.get(), context -> new ComputerStationTileRenderer());
 		event.registerBlockEntityRenderer(StarWarsExpansionModBlockEntities.CONTROL_STATION.get(), context -> new ControlStationTileRenderer());
 		event.registerBlockEntityRenderer(StarWarsExpansionModBlockEntities.KOLTO_TANK.get(), context -> new KoltoTankTileRenderer());
+		event.registerBlockEntityRenderer(StarWarsExpansionModBlockEntities.CARBONITE.get(), context -> new CarboniteTileRenderer());
 	}
 }

@@ -29,6 +29,7 @@ import net.mcreator.starwarsexpansion.entity.TIEFighterEntity;
 import net.mcreator.starwarsexpansion.entity.T3M4Entity;
 import net.mcreator.starwarsexpansion.entity.SpeederBikeEntity;
 import net.mcreator.starwarsexpansion.entity.SnowspeederEntity;
+import net.mcreator.starwarsexpansion.entity.SkiffGuardEntity;
 import net.mcreator.starwarsexpansion.entity.RodianRedEntity;
 import net.mcreator.starwarsexpansion.entity.RodianGreenEntity;
 import net.mcreator.starwarsexpansion.entity.RodianDefaultEntity;
@@ -57,6 +58,7 @@ import net.mcreator.starwarsexpansion.entity.EnemyLaserProjectileEntity;
 import net.mcreator.starwarsexpansion.entity.CantinaBandEntity;
 import net.mcreator.starwarsexpansion.entity.BrokenEscapePodEntity;
 import net.mcreator.starwarsexpansion.entity.BrainWalkerEntity;
+import net.mcreator.starwarsexpansion.entity.BibFortunaEntity;
 import net.mcreator.starwarsexpansion.entity.BattleDroidEntity;
 import net.mcreator.starwarsexpansion.entity.BanthaEntity;
 import net.mcreator.starwarsexpansion.entity.BallDroidEntity;
@@ -229,6 +231,12 @@ public class StarWarsExpansionModEntities {
 			EntityType.Builder.<WampaEntity>of(WampaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WampaEntity::new)
 
 					.sized(0.6f, 3f));
+	public static final RegistryObject<EntityType<SkiffGuardEntity>> SKIFF_GUARD = register("skiff_guard",
+			EntityType.Builder.<SkiffGuardEntity>of(SkiffGuardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SkiffGuardEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BibFortunaEntity>> BIB_FORTUNA = register("bib_fortuna", EntityType.Builder.<BibFortunaEntity>of(BibFortunaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			.setUpdateInterval(3).setCustomClientFactory(BibFortunaEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -287,6 +295,8 @@ public class StarWarsExpansionModEntities {
 			CantinaBandEntity.init();
 			BrainWalkerEntity.init();
 			WampaEntity.init();
+			SkiffGuardEntity.init();
+			BibFortunaEntity.init();
 		});
 	}
 
@@ -340,5 +350,7 @@ public class StarWarsExpansionModEntities {
 		event.put(CANTINA_BAND.get(), CantinaBandEntity.createAttributes().build());
 		event.put(BRAIN_WALKER.get(), BrainWalkerEntity.createAttributes().build());
 		event.put(WAMPA.get(), WampaEntity.createAttributes().build());
+		event.put(SKIFF_GUARD.get(), SkiffGuardEntity.createAttributes().build());
+		event.put(BIB_FORTUNA.get(), BibFortunaEntity.createAttributes().build());
 	}
 }

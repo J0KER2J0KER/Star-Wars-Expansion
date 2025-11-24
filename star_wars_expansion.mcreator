@@ -2014,9 +2014,9 @@
       "registry_name": "tusken_campment",
       "metadata": {
         "files": [
-          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/tusken_campment.json",
           "src/main/resources/data/star_wars_expansion/worldgen/structure_set/tusken_campment.json",
-          "src/main/resources/data/star_wars_expansion/worldgen/structure/tusken_campment.json"
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/tusken_campment.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/tusken_campment.json"
         ]
       }
     },
@@ -6074,6 +6074,164 @@
           "src/main/java/net/mcreator/starwarsexpansion/entity/WampaEntity.java"
         ]
       }
+    },
+    {
+      "name": "KorribanStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korriban_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/blockstates/korriban_stone.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/korriban_stone.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/KorribanStoneBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/korriban_stone.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/korriban_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "KorribanRuneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korriban_rune_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/blockstates/korriban_rune_block.json",
+          "src/main/resources/data/star_wars_expansion/loot_tables/blocks/korriban_rune_block.json",
+          "src/main/resources/assets/star_wars_expansion/models/block/korriban_rune_block.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/KorribanRuneBlockBlock.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/korriban_rune_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SkiffArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skiff_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/skiff_armor_helmet.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/skiff_armor_chestplate.json",
+          "src/main/resources/assets/star_wars_expansion/models/item/skiff_armor_leggings.json",
+          "src/main/java/net/mcreator/starwarsexpansion/item/SkiffArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SkiffGuard",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skiff_guard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/skiff_guard_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/SkiffGuardEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/SkiffGuardRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BibFortuna",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bib_fortuna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars_expansion/models/item/bib_fortuna_spawn_egg.json",
+          "src/main/java/net/mcreator/starwarsexpansion/entity/BibFortunaEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/client/renderer/BibFortunaRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BibFortunaRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bib_fortuna_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/BibFortunaRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Carbonite",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbonite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/CarboniteDisplayModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/item/carbonite.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/model/CarboniteBlockModel.java",
+          "src/main/resources/assets/star_wars_expansion/models/custom/carbonite_particle.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/CarboniteBlock.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/CarboniteTileRenderer.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/renderer/CarboniteDisplayItemRenderer.java",
+          "src/main/resources/assets/star_wars_expansion/blockstates/carbonite.json",
+          "src/main/java/net/mcreator/starwarsexpansion/block/entity/CarboniteTileEntity.java",
+          "src/main/java/net/mcreator/starwarsexpansion/block/display/CarboniteDisplayItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CantinaBandRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cantina_band_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starwarsexpansion/procedures/CantinaBandRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HuttPalace",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hutt_palace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars_expansion/worldgen/structure/hutt_palace.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/structure_set/hutt_palace.json",
+          "src/main/resources/data/star_wars_expansion/worldgen/template_pool/hutt_palace.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -6388,6 +6546,16 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "hutt_idle",
+      "files": [
+        "hutt_idle_1",
+        "hutt_idle_2",
+        "hutt_idle_3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -6417,6 +6585,9 @@
     ],
     "BLOCKS:minecraft:logs": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Carbonite",
+      "~CUSTOM:KorribanRuneBlock",
+      "~CUSTOM:KorribanStone",
       "~CUSTOM:KoltoTank",
       "~CUSTOM:ControlStation",
       "~CUSTOM:ComputerStation",
@@ -6457,6 +6628,7 @@
       "~CUSTOM:RedwoodLog"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Carbonite",
       "~CUSTOM:KoltoTank",
       "~CUSTOM:ControlStation",
       "~CUSTOM:ComputerStation",
@@ -6505,18 +6677,19 @@
     "en_us": {
       "item.star_wars_expansion.mse_6": "§eMSE-6",
       "item.star_wars_expansion.rodian_green_spawn_egg": "Rodian Spawn Egg",
-      "block.star_wars_expansion.modern_crate_3": "Modern Crate",
       "item.star_wars_expansion.kyber_crystal_purple": "§5Purple Kyber Crystal ",
+      "block.star_wars_expansion.modern_crate_3": "Modern Crate",
       "item.star_wars_expansion.yellow_lightsaber_closed": "§eYellow Lightsaber",
       "item.star_wars_expansion.clone_armor_212_helmet": "Clone Trooper 212st Helmet",
       "block.star_wars_expansion.modern_crate_4": "Modern Crate",
+      "block.star_wars_expansion.korriban_stone": "Korriban Stone",
       "entity.star_wars_expansion.twi_lek_default": "Twi\u0027Lek",
       "block.star_wars_expansion.modern_crate_2": "Modern Crate",
       "block.star_wars_expansion.modern_pillar": "Modern Pillar",
       "item.star_wars_expansion.arges_frog_spawn_egg": "Arges Frog Spawn Egg",
       "gui.star_wars_expansion.spaceship_overlay.label_z": "Z",
-      "item.star_wars_expansion.krykna_leg": "Krykna Leg",
       "item.star_wars_expansion.pirate_lizard_spawn_egg": "Pirate Spawn Egg",
+      "item.star_wars_expansion.krykna_leg": "Krykna Leg",
       "subtitles.rodian_idle": "",
       "item.star_wars_expansion.bantha_milk": "Bantha Milk Bucket",
       "item.star_wars_expansion.double_lightsaber_purple": "§5Purple Double Lightsaber",
@@ -6525,14 +6698,14 @@
       "item.star_wars_expansion.beskar_armor_helmet": "§cBeskar Helmet",
       "item.star_wars_expansion.ewok_spawn_egg": "Ewok Spawn Egg",
       "gui.star_wars_expansion.planet_anchor_gui.label_earth": "Earth",
-      "item.star_wars_expansion.jawa_spawn_egg": "Jawa Spawn Egg",
-      "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
       "entity.star_wars_expansion.speeder_bike": "Speeder Bike",
-      "block.star_wars_expansion.tatooine_door": "Tatooine Door",
-      "item.star_wars_expansion.saber_handle": "Saber Handle",
+      "item.star_wars_expansion.jedi_temple_guard_armor_helmet": "§eJedi Temple Guard Mask",
+      "item.star_wars_expansion.jawa_spawn_egg": "Jawa Spawn Egg",
       "item.star_wars_expansion.jogan": "Jogan",
-      "item.star_wars_expansion.pirate_spawn_egg": "Pirate Spawn Egg",
+      "item.star_wars_expansion.saber_handle": "Saber Handle",
+      "block.star_wars_expansion.tatooine_door": "Tatooine Door",
       "key.star_wars_expansion.spaceship_shoot_key": "Spaceship Shoot ",
+      "item.star_wars_expansion.pirate_spawn_egg": "Pirate Spawn Egg",
       "item.star_wars_expansion.vibroblade": "§eVibroblade",
       "block.star_wars_expansion.tatooine_sandstone_slab": "Tatooine Sandstone Slab",
       "entity.star_wars_expansion.protocol_droid_pink": "Protocol Droid Pink",
@@ -6546,6 +6719,7 @@
       "block.star_wars_expansion.doonium_ore": "Doonium Ore",
       "block.star_wars_expansion.workspace_bench": "Workspace Bench",
       "subtitles.westar_shot": "",
+      "entity.star_wars_expansion.skiff_guard": "Skiff Guard",
       "item_group.star_wars_expansion.force_tab": "Star Wars Force",
       "item.star_wars_expansion.landspeeder_spawn_egg": "Landspeeder Spawn Egg",
       "item.star_wars_expansion.beskar_armor_chestplate": "§cBeskar Chestplate",
@@ -6589,6 +6763,7 @@
       "subtitles.bantha_idle": "",
       "subtitles.porg_idle": "",
       "item.star_wars_expansion.r_4_p_17": "§eR4-P17",
+      "block.star_wars_expansion.korriban_rune_block": "Korriban Rune Block",
       "item_group.star_wars_expansion.trooper_tab": "Star Wars Combat",
       "entity.star_wars_expansion.rodian_red": "Rodian",
       "item.star_wars_expansion.snow_suit_helmet": "Snow Hood",
@@ -6641,6 +6816,7 @@
       "entity.star_wars_expansion.rodian_default": "Rodian",
       "item.star_wars_expansion.cooked_bantha_meat": "Cooked Bantha Meat",
       "block.star_wars_expansion.computer_station": "Computer Station",
+      "item.star_wars_expansion.skiff_armor_chestplate": "§eSkiff Guard Chestplate",
       "block.star_wars_expansion.hoth_stone": "Hoth Stone",
       "biome.star_wars_expansion.endor_forest": "Endor Forest",
       "item.star_wars_expansion.tauntaun_leather": "Tauntaun Leather",
@@ -6700,6 +6876,8 @@
       "block.star_wars_expansion.copper_sandstone_ore": "Copper Ore",
       "subtitles.ewok_idle": "",
       "item.star_wars_expansion.clone_armor_501_helmet": "Clone Trooper 501st Helmet",
+      "subtitles.hutt_idle": "",
+      "item.star_wars_expansion.skiff_armor_helmet": "§eSkiff Guard Helmet",
       "entity.star_wars_expansion.protocol_droid_gold": "Protocol Droid Gold",
       "entity.star_wars_expansion.tusken_raider": "Tusken",
       "gui.star_wars_expansion.planet_anchor_gui.label_kashyyyk": "Kashyyyk",
@@ -6710,7 +6888,9 @@
       "item.star_wars_expansion.tie_fighter_spawn_egg": "TIE-Fighter Spawn Egg",
       "item.star_wars_expansion.gamorrean_spawn_egg": "Gamorrean Spawn Egg",
       "item.star_wars_expansion.stormtrooper_armor_helmet": "Stormtrooper Helmet",
+      "item.star_wars_expansion.skiff_guard_spawn_egg": "Skiff Guard Spawn Egg",
       "item.star_wars_expansion.tauntaun_spawn_egg": "Tauntaun Spawn Egg",
+      "item.star_wars_expansion.skiff_armor_leggings": "§eSkiff Guard Leggings",
       "subtitles.mousedroid_idle": "",
       "entity.star_wars_expansion.twi_lek_orange": "Twi\u0027Lek",
       "entity.minecraft.villager.star_wars_expansion.spaceship_trader": "Spaceship Trader",
@@ -6731,6 +6911,7 @@
       "block.star_wars_expansion.modern_stairs": "Modern Stairs",
       "item.star_wars_expansion.lightsaber_geo_yellow": "§eYellow Lightsaber",
       "entity.star_wars_expansion.cantina_band": "Cantina Band",
+      "block.star_wars_expansion.carbonite": "Carbonite",
       "item.star_wars_expansion.c_3_po": "§eC-3PO",
       "item.star_wars_expansion.vibro_axe": "§eVibro-Axe",
       "subtitles.lightsaber_on": "",
@@ -6761,6 +6942,7 @@
       "item.star_wars_expansion.clone_armor_41_chestplate": "Clone Trooper 41st Chestplate",
       "item.star_wars_expansion.ee_3": "EE-3",
       "item.star_wars_expansion.rodian_default_spawn_egg": "Rodian Spawn Egg",
+      "item.star_wars_expansion.bib_fortuna_spawn_egg": "Bib Fortuna Spawn Egg",
       "item.star_wars_expansion.kyber_crystal_red": "§cRed Kyber Crystal ",
       "entity.star_wars_expansion.krykna": "Krykna",
       "item.star_wars_expansion.raw_porg": "Raw Porg",
@@ -6802,6 +6984,7 @@
       "item.star_wars_expansion.blue_double_lightsaber_closed": "§bBlue Double Lightsaber",
       "entity.star_wars_expansion.escape_pod": "Escape Pod",
       "item.star_wars_expansion.computer_tip": "Computer Tip",
+      "entity.star_wars_expansion.bib_fortuna": "Bib Fortuna",
       "item.star_wars_expansion.krykna_spawn_egg": "Krykna Spawn Egg",
       "entity.minecraft.villager.star_wars_expansion.droid_trader": "Droid Trader",
       "item.star_wars_expansion.clone_armor_helmet": "Clone Trooper Helmet",
@@ -6822,7 +7005,7 @@
   "workspaceSettings": {
     "modid": "star_wars_expansion",
     "modName": "Star Wars Expansion",
-    "version": "1.9.0",
+    "version": "1.10",
     "author": "FazBrick Studios",
     "websiteURL": "https://www.curseforge.com/members/mrfazcraft/projects",
     "license": "All Rights Reserved",
